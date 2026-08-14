@@ -1,0 +1,51 @@
+# Instance attribute
+class employee:
+    company="HP"
+
+    def __init__(self,name,salary,experience):
+        self.name=name
+        self.salary=salary
+        self.experience=experience
+    
+    def info_employee(self):
+        info=(f"The name of the employee is {self.name} whereas the salary of the employee is {self.salary} and the working experience of the the employee is for {self.experience}")
+        print(info)
+    
+a1=employee("Rohit",1200000,3)
+a2=employee("Suraj",100000,45)
+a1.info_employee()
+a2.info_employee()
+    
+
+# Use of static attribute
+class employee:
+    company="HP"
+
+    def __init__(self,name,salary,experience):
+        self.name=name
+        self.salary=salary
+        self.experience=experience
+    
+    def info_employee(self):
+        info=(f"The name of the employee is {self.name} whereas the salary of the employee is {self.salary} and the working experience of the the employee is for {self.experience}")
+        print(info)
+
+    @staticmethod  # We can make use of static method decorators for making the any function regarding the mathematics to be seperaed from the self function and can be worked without any obstacle
+    def sum(a,b):
+        print("Sum of the number is: ",a+b)
+    
+    @classmethod
+    
+    def change_company(cls,new_company):
+        cls.company=new_company
+    
+a1=employee("Rohit",1200000,3)
+a2=employee("Suraj",100000,45)
+a1.info_employee()
+a2.info_employee()
+a2.sum(23,45)   # this will throw an error since you have not specified the object for it and even though you have specified not directed the path for it because of the absence of the self word
+# Output is  employee.sum() takes 2 positional arguments but 3 were given
+# Hence in order to solve it solution is also mentioned
+print(employee.company)
+a1.change_company("Acer")
+print(employee.company)

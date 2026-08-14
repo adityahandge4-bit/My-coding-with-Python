@@ -1,0 +1,12 @@
+# Advantages of oops
+1.Organization 
+2.reusability
+3. Easier debugging
+4. Real world Modeling
+
+
+# Four major princiles of the oop's
+1. Abstraction  (To get certain kind of codes by abstracting them by several modules)
+2. Encapsulation (Covering everything into the single entity)
+3. Inheritance
+4.Polymorphism(many forms of certain things)

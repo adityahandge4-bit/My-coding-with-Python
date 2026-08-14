@@ -1,0 +1,26 @@
+# Write a python function to print first n lines of the following pattern.
+# ***
+# **
+# *
+# - for n = 3
+
+# def pattern(n):
+#     if(n==0):
+#         return ("")
+#     print("*"*n)
+#     pattern(n-1)
+# pattern(5)
+
+
+
+
+
+
+
+def print_stars(n):
+    if(n==0):
+        return ("")
+    print("*"*n)
+    print_stars(n-1)
+n=int(input("Enter the number: "))
+print_stars(n)

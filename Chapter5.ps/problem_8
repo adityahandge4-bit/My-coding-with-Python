@@ -1,0 +1,12 @@
+s = {8, 7, 12, 'harry', [1,2]}
+s.remove(12)
+s.add(90)
+print(s)
+
+#Always remember list is mmutable andd you have placed list inside
+# a set which is umuttable and hence it is completely unhashable
+
+# a={21,22,2,23,34,56,78}
+# a.remove(22)
+# a.add(23)
+# print(a)

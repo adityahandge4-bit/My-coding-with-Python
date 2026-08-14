@@ -1,0 +1,4 @@
+file '2025_Acer_Consumer_Default_3840x2400.jpg'
+duration 1
+file '2025_Acer_Consumer_Default_3840x2400.jpg'
+duration 1

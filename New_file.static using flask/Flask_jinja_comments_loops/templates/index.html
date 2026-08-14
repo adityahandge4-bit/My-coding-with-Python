@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class x students results-Delhi Public School</title>
+</head>
+<body>
+    <h1>Delhi Public School Results!</h1>
+    <h2>An overlook of the results of students as follows:</h2>
+    <ul>
+        {# This is a comment#} 
+        {% for key in marks.keys() %}
+        <li>The marks of the {{key}} is : {{marks.get(key)}}
+        {% if marks.get(key)>80 %}
+            <span>  Excellant  </span>  
+        {% elif marks.get(key)<=80 and marks.get(key)>50 %}
+            <span>  Good  </span>    
+        {% else %}
+           <span>  Bad  </span>
+        {% endif %}
+        
+        </li>
+        {% endfor %} 
+        
+    </ul>
+</body>
+</html>
