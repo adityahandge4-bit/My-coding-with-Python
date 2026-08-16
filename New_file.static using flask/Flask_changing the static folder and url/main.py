@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 
 # app = Flask(__name__,static_url_path="/public") # This is how you can change the static url path
-app=Flask(__name__,static_folder="static",static_url_path="/static")# This is how you can change the static folder location
+app=Flask(__name__,static_folder="static",static_url_path="/public")# This is how you can change the static folder location
 
 @app.route("/")
 def hello_world():
