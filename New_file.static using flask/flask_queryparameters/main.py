@@ -9,10 +9,10 @@ def hello_world():
     if "name" in request.args.keys():
         name=request.args["name"]
     if "token" in request.args.keys():
-        token=request.args["tokens"]
+        token=request.args["token"]
 
     # name=request.args.get("name")# or you can also make use as name=request.args["name"]
     # token=request.args.get("tokens")# or you can also amke use as token=request.args["tokens"]   
 
-    return render_template("index.html", name=name, tokens=token)
+    return render_template("index.html", name=name, token=token)
 app.run(debug=True)
