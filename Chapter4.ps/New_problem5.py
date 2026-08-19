@@ -7,6 +7,7 @@ print(coordinates[0:])
 
 # Convert the tuple to the list and change the first element to 50, and convert it back to the tuple
 lists=list(coordinates)
+print(lists)
 lists[0]=50
 coordinates=tuple(lists)
 print(coordinates)
