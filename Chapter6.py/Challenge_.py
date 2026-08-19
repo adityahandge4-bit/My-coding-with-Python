@@ -20,10 +20,6 @@ elif(age==0):
 elif(age<18):
     print("No! you are not eligible")
 
-else:
-    print("You have not given correct syntax")
-
-=======
 elif(age<0):
     print("Age cannot be negative")
 
