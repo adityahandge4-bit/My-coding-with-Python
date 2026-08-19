@@ -17,5 +17,5 @@ if(total_percentage >= 40 and sub1 >= 33 and sub2 >= 33 and sub3 >= 33):
 else:
     print("Student has Failed")
 
-print("Percentage:", total_percentage)   
+print("Percentage:", total_percentage)          
 
