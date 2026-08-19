@@ -8,7 +8,7 @@ print(name.startswith("Ha"))
 print(name.capitalize())
 
 # How to make use of cpitalize fuction of string
-name=("harry")
+name="harry"
 print(name.capitalize())
 
 # How to use count function of string
