@@ -33,8 +33,8 @@ print("Reversed number:", reverse)
 # Or
 # Simple method is what you can do string slicing
 # as follows
-a=input("Enter the number:  ")
-print(int(str(a)[::-1]))
+a=int(input("Enter the number:  "))
+print((str(a)[::-1]))
 
         
 
