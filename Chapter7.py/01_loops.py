@@ -23,5 +23,5 @@ for i in range(1,101): # This function generally write the value from 1 to 101 a
 
 
 
-for i in range(1,101):
-    print(i)
+# for i in range(1,101):
+#     print(i)
