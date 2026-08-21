@@ -2,6 +2,7 @@
 def c_to_f(c):
     return (9*c)/5 + 32
 c=int(input("Enter the temperature in °C:  "))
+print(c_to_f(c))
 d= c_to_f(c)
 print(f"{round(d,2)}°F")
 
