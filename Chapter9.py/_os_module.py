@@ -4,13 +4,14 @@
 # Used for checking whether the directory exists or not
 # Also for removing the empty directories
 import os
-# a=os.listdir("dir")
-# print(a)
-# info=os.getcwd()
-# print(info)
-# print(os.path.exists("Adi_ifo.txt"))
+a=os.listdir("dir")
+print(a)
+info=os.getcwd()
+print(info)
+print(os.path.exists("Adi_ifo.txt"))
 
 
-os.rmdir("dir")
+
+
 
 
