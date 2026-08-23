@@ -4,7 +4,7 @@
 # Used for checking whether the directory exists or not
 # Also for removing the empty directories
 import os
-a=os.listdir("dir")
+a=os.listdir("Dir_")
 print(a)
 info=os.getcwd()
 print(info)
