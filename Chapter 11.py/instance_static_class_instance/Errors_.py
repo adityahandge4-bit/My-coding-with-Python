@@ -16,7 +16,7 @@ while True:
         print("Hey don't divide by the zero")
 
     except Exception as e:
-        print("There's something error")
+        print(f"There's something error{e}")
   
 
 # c=int(input("Enter the number 1:   "))
