@@ -6,7 +6,7 @@ class company:
         
     
 
-    def __str__(self):     # This dunder is used by the user for a fellow programmer
+    def __str__(self):     # This dunder is used by the user as fellow programmer
         return f"The name of the employee is {self.name} and the experience of the employee is {self.experience} and the salary of the employee is {self.salary}"
     
     def __repr__(self):     # This is used for the developer
