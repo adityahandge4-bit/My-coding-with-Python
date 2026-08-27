@@ -4,8 +4,8 @@ def avg():
     b=int(input("Enter the number:  "))
     c=int(input("Enter the number:  "))
     average=(a+b+c)/3
-    print(average)
-avg()#Function call
+    return average
+print(avg())#Function call
 
 # In order to avoid the repeated code inside you python programme just make use of functions
 # Some different way thus to find the average of two or more than two numbers
